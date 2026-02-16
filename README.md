@@ -1,4 +1,4 @@
-# Internet Performance Optimizer (IPO)
+# PacketPilot
 
 A **measurement-first**, **reversible**, and **safe** network optimization tool for Windows users with router integration features.
 
@@ -43,8 +43,8 @@ pip install internet-performance-optimizer
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/internet-performance-optimizer.git
-cd internet-performance-optimizer
+git clone https://github.com/ruaavell/PacketPilot.git
+cd PacketPilot
 pip install -e .
 ```
 
