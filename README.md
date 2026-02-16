@@ -1,3 +1,7 @@
+<img width="1024" height="1024" alt="logo" src="https://github.com/user-attachments/assets/9f455cdb-a5ca-4fb4-bc9b-47a99da8d786" />
+
+
+
 # PacketPilot (IPO)
 
 A **measurement-first**, **reversible**, and **safe** network optimization tool for Windows users with router integration features.
