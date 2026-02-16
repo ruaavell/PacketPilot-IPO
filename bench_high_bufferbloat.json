@@ -1,0 +1,81 @@
+{
+  "timestamp": "2024-02-16T10:15:00.000Z",
+  "target": "1.1.1.1",
+  "system_info": {
+    "os": "Windows",
+    "os_version": "10.0.22000",
+    "os_release": "11",
+    "architecture": "AMD64",
+    "processor": "AMD Ryzen 7 5800X 8-Core Processor",
+    "python_version": "3.11.5",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "memory_gb": 31.89,
+    "network_interfaces": [
+      {
+        "name": "Ethernet",
+        "address": "192.168.1.50"
+      }
+    ]
+  },
+  "icmp": {
+    "samples": 1000,
+    "p50": 18.7,
+    "p90": 32.4,
+    "p95": 42.8,
+    "p99": 85.3,
+    "min": 12.3,
+    "max": 245.7,
+    "mean": 24.5,
+    "stddev": 18.2,
+    "packet_loss": 1.2,
+    "raw_samples": [
+      15.2, 18.4, 22.1, 17.8, 19.5, 21.3, 16.9, 23.7, 20.1, 25.4,
+      14.8, 19.2, 24.3, 18.5, 26.1, 17.3, 21.8, 15.5, 22.9, 27.3,
+      16.1, 20.7, 25.8, 19.3, 28.5, 17.9, 23.4, 14.2, 24.9, 21.5,
+      18.9, 26.7, 22.4, 16.6, 25.2, 19.8, 27.9, 15.9, 23.1, 20.3,
+      17.5, 24.6, 21.9, 18.2, 26.4, 16.3, 22.7, 19.6, 28.1, 23.8
+    ]
+  },
+  "jitter": {
+    "mean_jitter_ms": 8.7,
+    "max_jitter_ms": 25.3,
+    "packet_loss": 0.8,
+    "out_of_order": 5
+  },
+  "throughput": {
+    "download_mbps": 87.5,
+    "upload_mbps": 16.3,
+    "retransmits": 12
+  },
+  "bufferbloat": {
+    "idle_latency_ms": 18.5,
+    "loaded_latency_ms": 235.7,
+    "latency_increase_ms": 217.2,
+    "latency_increase_pct": 1174.1,
+    "grade": "F"
+  },
+  "dns": [
+    {
+      "resolver": "1.1.1.1",
+      "median_ms": 12.3,
+      "p95_ms": 18.5,
+      "success_rate": 97.5,
+      "samples": 20
+    },
+    {
+      "resolver": "8.8.8.8",
+      "median_ms": 19.7,
+      "p95_ms": 28.3,
+      "success_rate": 96.0,
+      "samples": 20
+    }
+  ],
+  "metadata": {
+    "ping_count": 1000,
+    "skip_throughput": false,
+    "skip_dns": false,
+    "ipo_version": "0.1.0",
+    "notes": "High bufferbloat detected - SQM recommended"
+  }
+}

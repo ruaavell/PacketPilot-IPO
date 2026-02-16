@@ -1,0 +1,84 @@
+{
+  "timestamp": "2024-02-16T14:30:00.000Z",
+  "target": "1.1.1.1",
+  "system_info": {
+    "os": "Windows",
+    "os_version": "10.0.22631",
+    "os_release": "11",
+    "architecture": "AMD64",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python_version": "3.11.5",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "memory_gb": 31.73,
+    "network_interfaces": [
+      {
+        "name": "Ethernet",
+        "address": "192.168.1.100"
+      },
+      {
+        "name": "Wi-Fi",
+        "address": "192.168.1.101"
+      }
+    ]
+  },
+  "icmp": {
+    "samples": 1000,
+    "p50": 12.3,
+    "p90": 18.5,
+    "p95": 22.1,
+    "p99": 45.2,
+    "min": 8.1,
+    "max": 120.5,
+    "mean": 15.2,
+    "stddev": 8.3,
+    "packet_loss": 0.2,
+    "raw_samples": [
+      10.1, 11.2, 12.3, 11.8, 13.1, 12.5, 11.9, 14.2, 12.7, 13.4,
+      11.5, 12.8, 13.2, 11.7, 14.5, 12.1, 13.6, 11.3, 12.9, 14.1,
+      10.8, 13.3, 12.4, 11.6, 14.8, 12.2, 13.7, 11.4, 15.1, 12.6,
+      13.8, 11.9, 14.3, 12.3, 13.1, 10.9, 14.6, 12.7, 13.4, 11.2,
+      15.3, 12.8, 13.9, 11.5, 14.7, 12.1, 13.2, 10.6, 14.9, 12.4
+    ]
+  },
+  "jitter": {
+    "mean_jitter_ms": 2.5,
+    "max_jitter_ms": 8.3,
+    "packet_loss": 0.1,
+    "out_of_order": 0
+  },
+  "throughput": {
+    "download_mbps": 95.3,
+    "upload_mbps": 18.2,
+    "retransmits": 2
+  },
+  "bufferbloat": {
+    "idle_latency_ms": 12.5,
+    "loaded_latency_ms": 25.3,
+    "latency_increase_ms": 12.8,
+    "latency_increase_pct": 102.4,
+    "grade": "A"
+  },
+  "dns": [
+    {
+      "resolver": "1.1.1.1",
+      "median_ms": 8.5,
+      "p95_ms": 12.0,
+      "success_rate": 99.5,
+      "samples": 20
+    },
+    {
+      "resolver": "8.8.8.8",
+      "median_ms": 15.2,
+      "p95_ms": 22.0,
+      "success_rate": 98.0,
+      "samples": 20
+    }
+  ],
+  "metadata": {
+    "ping_count": 1000,
+    "skip_throughput": false,
+    "skip_dns": false,
+    "ipo_version": "0.1.0"
+  }
+}
