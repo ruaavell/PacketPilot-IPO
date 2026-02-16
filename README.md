@@ -204,7 +204,7 @@ When reporting issues, please include:
 
 ## Security Disclosure
 
-Found a security issue? Email: security@example.com
+Found a security issue? Email: ruavellx@proton.me
 
 Do NOT open public issues for security vulnerabilities.
 
