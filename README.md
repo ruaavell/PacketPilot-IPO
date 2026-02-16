@@ -4,7 +4,7 @@
 
 # PacketPilot (IPO)
 
-A **measurement-first**, **reversible**, and **safe** network optimization tool for Windows users with router integration features.
+A **measurement-first**, **reversible**, and **safe** network optimization tool for Windows and Linux users with router integration features.
 
 ## ⚠️ Core Principles
 
