@@ -43,8 +43,8 @@ pip install internet-performance-optimizer
 ### From source
 
 ```bash
-git clone https://github.com/ruaavell/PacketPilot.git
-cd PacketPilot
+git clone https://github.com/ruaavell/PacketPilot-IPO.git
+cd PacketPilot-IPO
 pip install -e .
 ```
 
